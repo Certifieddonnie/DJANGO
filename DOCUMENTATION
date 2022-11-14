@@ -1,0 +1,16 @@
+This File includes what I am learning from the django tutorials.
+==============================================
+
+Created a poll app. in the views file, i created an index function. and added urls file in the app folder
+For every function you create in the views file.
+You add the function url to the urls file.
+All Apps have a specific url added in the main project urls file.
+
+In the app urls file. we have a function 'path' that contains 4 args.
+the args are; route, view, kwargs, name.
+The route app indicates the url pattern of where to access the view of that particular function.
+in the project's url we have a general url pattern to access each app.
+For example; In the polls app.
+We added the polls url to the project's urls file. ["polls/"]
+then in the polls url we include paths to the different functions created in views. ["index/"]
+If we want to access it on the web. we check ["polls/index/"]
