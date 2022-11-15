@@ -6,3 +6,7 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Hello, World! This is the polls index.")
+
+
+def home(request):
+    return render(request, 'home.html', {'name': 'McDonald', 'age': '18'})

@@ -14,3 +14,8 @@ For example; In the polls app.
 We added the polls url to the project's urls file. ["polls/"]
 then in the polls url we include paths to the different functions created in views. ["index/"]
 If we want to access it on the web. we check ["polls/index/"]
+
+I have been able to include some templates.
+Though still testing some few features. I included the templates folder in the settings,
+changed the HTTPResponse to render in the views.py file. I applied some Jinja styles. 
+i guess i will be dealing with more of Jinja.
