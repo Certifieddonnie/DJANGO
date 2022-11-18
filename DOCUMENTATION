@@ -19,3 +19,15 @@ I have been able to include some templates.
 Though still testing some few features. I included the templates folder in the settings,
 changed the HTTPResponse to render in the views.py file. I applied some Jinja styles. 
 i guess i will be dealing with more of Jinja.
+
+I just finished learning how to add two numbers and making it reflect on my web.
+i created a new html file call result and a base html file, that includes all i want to reflect on all my web pages
+the home html hold the form to accept the two values. and the submit redirects it to the next url due to mapping
+that's the result page. 
+in the views file i included the add function that will hold the result of the addition in home page.
+Finally got the output. Still going to work on the web output.
+
+Our data needs to be protected. we use the post function of the http protocol to protect our data.
+we included the csrf token to avoid hackers attacks.
+
+image.png

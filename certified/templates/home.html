@@ -1,2 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
 <h1 style="color:Tomato; text-align:center; ">Hello {{name}}! This has been my home for {{age}} years. </h1>
 <font face="Verdana" size="7" color="Tomato"> Check out {{name}}'s Fonts </font>
+
+<form action="add" method="post">
+
+	{% csrf_token %}
+
+	Enter 1st Number : <input type="text" name="num1"><br>
+	Enter 2nd Number : <input type="text" name="num2"><br>
+	<input type="submit">
+</form>
+
+{% endblock %}
