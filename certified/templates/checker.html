@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 style="color:Tomato; text-align:center; ">
+	A PAGE TO CHOOSE OPERATION!
+</h1>
+
+<a href="indes" target="_self">HOME</a><br>
+<a href="checker" target="_self">OPERATION</a><br>
+
+<form action="check" method="post">
+	{% csrf_token %}
+
+	Which Function do you want to Perform?(add or sub) : <input type="text" name="ops"><br>
+	<input type="submit">
+</form> 
+
+{% endblock %}

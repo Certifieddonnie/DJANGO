@@ -31,3 +31,6 @@ Our data needs to be protected. we use the post function of the http protocol to
 we included the csrf token to avoid hackers attacks.
 
 image.png
+
+so i was able to connect my pages together and include an image but isn't showing. 
+still wondering?? Even though i added the load static command to my file. well i will figure it out tomorrow.
